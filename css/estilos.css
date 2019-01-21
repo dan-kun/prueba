@@ -18,6 +18,7 @@ h1{
   font-style: italic;
   letter-spacing: -.2px;
   color: white;
+  margin: 0;
 }
 
 h1 strong{
@@ -25,19 +26,48 @@ h1 strong{
   color: #026fff;
 }
 
+h2{
+  color: #026fff;
+  text-transform: uppercase;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.project_course, .project_date, .project_url, .project_description{
+  margin: 10px 0;
+}
+
+.project_description{
+  font-size: 20px;
+}
+
+.project strong{
+  font-family: 'Fjalla One', sans-serif;
+}
+
 .portfolio{
   background: #fafafa;
+  padding: 20px;
 }
 
 .project{
   border: 1px solid red;
   border-radius: 10px;
   margin-bottom: 15px;
-  margin: 10px;
   padding: 20px;
   background: white;
   box-sizing: border-box;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project_title{
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 
 .project_details {
@@ -55,13 +85,16 @@ h1 strong{
   background-size: 500px 300px;
   background-repeat: no-repeat;
   background-position-x: right;
+  display: flex;
+  align-items: center;
 }
 
 .header{
   background-color: #1b2127;
   color: white;
-  height: 90px;
+  height: 70px;
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 
@@ -81,7 +114,6 @@ figure{
   display: block;
   height: inherit;
   padding: 0 10px;
-  margin: 10px;
 }
 
 .menu {
@@ -111,4 +143,64 @@ figure{
   border: 1px solid red;
   flex-shrink: 0;
   margin: 5px;
+}
+
+.footer{
+  color: white;
+  background-color: #1b2127;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.footer img {
+  vertical-align: middle;
+}
+.footer a{
+  color: white;
+}
+
+.event{
+  margin: 10px;
+  width: 480px;
+  border-radius: 10px;
+  overflow: hidden;
+  flex-shrink: 0;
+    background: #f4fbff;
+}
+
+.eventos{
+  display: flex;
+}
+
+.event_title{
+  margin-left: 10px;
+}
+
+.event img{
+  width: 480px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.event_detail{
+  margin: 20px 40px;
+  margin-top: -40px;
+  background-color: white;
+  position: relative;
+  padding: 20px;
+  text-align: center;
+}
+
+.event_description{
+  text-align: left;
+}
+
+.event_url{
+  color: #056fff;
+  border: 1px solid #056fff;
+  padding: 5px 20px;
+  text-decoration: none;
+  border-radius: 5px;
 }

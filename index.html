@@ -12,7 +12,7 @@
 <body>
     <header class="header">
         <figure class="logo">
-          <img src="imagenes/logo.png" alt="">
+          <img src="imagenes/logo.png"  height="50px" alt="">
         </figure>
         <nav class="menu">
           <ol>
@@ -42,7 +42,7 @@
         <div class="project_details">
           <h3 class="project_title">Primera aplicación</h3>
           <h6 class="project_course">HTML/CSS/JASCRIPT</h6>
-          <p class="porject_date"><small><strong>Fecha: </strong>15/01/2019</small></p>
+          <p class="project_date"><small><strong>Fecha: </strong>15/01/2019</small></p>
           <p class="project_url"><small><strong>Pronto podras verlo</strong> en mi perfil de HitGub</small></p>
           <p class="project_description">Será el resultado de mucho esfuerzo, no te lo pierdas.</p>
         </div>
@@ -52,21 +52,32 @@
         </figure>
       </article>
     </section>
+    <h2 class="event_title">
+      Más sobre mi experiencia
+    </h2>
     <section id="eventos" class="eventos">
-      <h2>
-        Más sobre mi experiencia
-      </h2>
       <article class="event">
         <figure class="event_images_container">
           <img class="event_images" src="imagenes/platzi-conf.jpg" width="500px" alt="">
         </figure>
-        <h3 class="event_title">
-          Cursos de administración de Servidores
-        </h3>
-        <p class="event_description">Curso super util para aprender Linux y un manejo basico de servidores ubuntu</p>
+        <div class="event_detail">
+          <h3 class="event_title">
+            Cursos de administración de Servidores</h3>
+          <p class="event_description">Curso super util para aprender Linux y un manejo basico de servidores ubuntu</p>
+          <a class="event_url" href="https://www.youtube.com/embed/t_shSXXV91w" target="_blank">Pronto disponible</a>
+        </div>
       </article>
-      <a class="event_url" href="https://www.youtube.com/embed/t_shSXXV91w" target="_blank">Pronto disponible, mientras escuchen algo de musica</a>
-
+      <article class="event">
+        <figure class="event_images_container">
+          <img class="event_images" src="imagenes/platzi-conf.jpg" width="500px" alt="">
+        </figure>
+        <div class="event_detail">
+          <h3 class="event_title">
+            Cursos de administración de Servidores</h3>
+          <p class="event_description">Curso super util para aprender Linux y un manejo basico de servidores ubuntu</p>
+          <a class="event_url" href="https://www.youtube.com/embed/t_shSXXV91w" target="_blank">Pronto disponible</a>
+        </div>
+      </article>
     </section>
     <section id="contacto" class="contact">
       <form class="form_email" action="/suscripcion/" method="post">
@@ -76,6 +87,13 @@
         <!-- <button type="button" name="button">Enviar</button> -->
       </form>
     </section>
-    <footer class="footer">footer</footer>
+    <footer class="footer">
+      <div>
+        <p>Curso de Desarrollo web 2018 <img src="imagenes/platzi.png" width="80px" alt="logo_platzi"> </p>
+      </div>
+      <div >
+        <p>Designed with <\3 by  <a href="https://twitter.com/dan_kun93"> @dan_kun93 </a> </p>
+      </div>
+    </footer>
 </body>
 </html>
