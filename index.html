@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Empezando con Desarrollo</title>
+  <link rel="icon" type="image/png" href="imagenes/favicon.png">
+  <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Source+Sans+Pro" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header class="header">
+        <figure class="logo">
+          <img src="imagenes/logo.png" alt="">
+        </figure>
+        <nav class="menu">
+          <ol>
+            <li class="link">
+              <a href="#portafolio">Portafolio</a>
+            </li>
+            <li class="link">
+              <a href="#eventos">Experiencia</a>
+            </li>
+            <li class="link">
+              <a href="#contacto">Trabajemos juntos</a>
+            </li>
+          </ol>
+        </nav>
+    </header>
+    <section class="hero">
+      <h1>
+        Hola, Soy <strong>Daniel Galindez.</strong> <br> Estoy aprendiendo <strong>desarrollo web</strong> <br> <strong>Deseo aprender GO!</strong>
+      </h1>
+      <!-- <img src="imagenes/hero.jpg" alt="texto alternativo" width="500px" height="300px"> -->
+    </section>
+    <section id="portafolio" class="portfolio">
+      <h2>
+        Portafolio (Proyectos Destacados)
+      </h2>
+      <article class="project">
+        <div class="project_details">
+          <h3 class="project_title">Primera aplicación</h3>
+          <h6 class="project_course">HTML/CSS/JASCRIPT</h6>
+          <p class="porject_date"><small><strong>Fecha: </strong>15/01/2019</small></p>
+          <p class="project_url"><small><strong>Pronto podras verlo</strong> en mi perfil de HitGub</small></p>
+          <p class="project_description">Será el resultado de mucho esfuerzo, no te lo pierdas.</p>
+        </div>
+
+        <figure class="project_image_container">
+          <img class="project_image"src="imagenes/platzi-video-react-native.png" alt="proyecto curso reat-native" width="500px">
+        </figure>
+      </article>
+    </section>
+    <section id="eventos" class="eventos">
+      <h2>
+        Más sobre mi experiencia
+      </h2>
+      <article class="event">
+        <figure class="event_images_container">
+          <img class="event_images" src="imagenes/platzi-conf.jpg" width="500px" alt="">
+        </figure>
+        <h3 class="event_title">
+          Cursos de administración de Servidores
+        </h3>
+        <p class="event_description">Curso super util para aprender Linux y un manejo basico de servidores ubuntu</p>
+      </article>
+      <a class="event_url" href="https://www.youtube.com/embed/t_shSXXV91w" target="_blank">Pronto disponible, mientras escuchen algo de musica</a>
+
+    </section>
+    <section id="contacto" class="contact">
+      <form class="form_email" action="/suscripcion/" method="post">
+        <h3>¿Creamos algo juntos?</h3>
+        <input type="email" placeholder="Déjanos tu email" required>
+        <input type="submit" value="Enviar">
+        <!-- <button type="button" name="button">Enviar</button> -->
+      </form>
+    </section>
+    <footer class="footer">footer</footer>
+</body>
+</html>
