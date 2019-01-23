@@ -79,14 +79,19 @@ h2{
 }
 
 .hero{
-  height: 300px;
-  background-image: url('../imagenes/hero.jpg');
+  /* height: 300px; */
+  /* background-image: url('../imagenes/hero.jpg'); */
   background-color: #1b2127;
-  background-size: 500px 300px;
-  background-repeat: no-repeat;
-  background-position-x: right;
+  /* background-size: 500px 300px; */
+  /* background-repeat: no-repeat; */
+  /* background-position-x: right; */
   display: flex;
   align-items: center;
+  justify-content: space-between;
+}
+
+.hero_image{
+  object-fit: cover;
 }
 
 .header{
@@ -203,4 +208,72 @@ figure{
   padding: 5px 20px;
   text-decoration: none;
   border-radius: 5px;
+}
+
+.contact{
+  background-color: #056fff;
+  color: white;
+  height: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.social{
+}
+
+.social_link{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  margin: 0 10px;
+  background-size: 60px 60px;
+}
+
+.social_link.twitter{
+  background-image: url('../imagenes/twitter.svg');
+}
+
+.social_link.facebook{
+  background-image: url('../imagenes/facebook.svg');
+}
+.social_link.github{
+  background-image: url('../imagenes/github.svg');
+}
+.social_link.instagram{
+  background-image: url('../imagenes/instagram.svg');
+}
+
+.email{
+  border-radius: 5px;
+  border-style: solid;
+  border-color: gray;
+  padding: 10px 20px 10px 25px;
+  background-image: url('../imagenes/envelope.svg');
+  background-size: 10px 10px;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 5px;
+}
+
+.boton{
+  display: block;
+  margin-top: 5px;
+  background: transparent;
+  color: white;
+  width: 100px;
+  padding: 10px 0;
+  border-radius: 5px;
+}
+
+.form_email h3 {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container{
+  width: 1000px;
+  margin: 0 auto;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
 }

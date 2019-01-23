@@ -10,89 +10,109 @@
   <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-    <header class="header">
-        <figure class="logo">
-          <img src="imagenes/logo.png"  height="50px" alt="">
-        </figure>
-        <nav class="menu">
-          <ol>
-            <li class="link">
-              <a href="#portafolio">Portafolio</a>
-            </li>
-            <li class="link">
-              <a href="#eventos">Experiencia</a>
-            </li>
-            <li class="link">
-              <a href="#contacto">Trabajemos juntos</a>
-            </li>
-          </ol>
-        </nav>
-    </header>
+  <header class="header">
+    <div class="container" style="background-color: #1b2127">
+      <figure class="logo">
+        <img src="imagenes/logo.png"  height="50px" alt="">
+      </figure>
+      <nav class="menu">
+        <ol>
+          <li class="link">
+            <a href="#portafolio">Portafolio</a>
+          </li>
+          <li class="link">
+            <a href="#eventos">Experiencia</a>
+          </li>
+          <li class="link">
+            <a href="#contacto">Trabajemos juntos</a>
+          </li>
+        </ol>
+      </nav>
+    </div>
+  </header>
     <section class="hero">
-      <h1>
-        Hola, Soy <strong>Daniel Galindez.</strong> <br> Estoy aprendiendo <strong>desarrollo web</strong> <br> <strong>Deseo aprender GO!</strong>
-      </h1>
-      <!-- <img src="imagenes/hero.jpg" alt="texto alternativo" width="500px" height="300px"> -->
+      <div class="container">
+        <h1>
+          Hola, Soy <strong>Daniel Galindez.</strong> <br> Estoy aprendiendo <strong>desarrollo web</strong> <br> <strong>Deseo aprender GO!</strong>
+        </h1>
+        <img class="hero_image" src="imagenes/hero.jpg" alt="texto alternativo" width="500px" height="300px">
+      </div>
     </section>
     <section id="portafolio" class="portfolio">
-      <h2>
-        Portafolio (Proyectos Destacados)
-      </h2>
-      <article class="project">
-        <div class="project_details">
-          <h3 class="project_title">Primera aplicación</h3>
-          <h6 class="project_course">HTML/CSS/JASCRIPT</h6>
-          <p class="project_date"><small><strong>Fecha: </strong>15/01/2019</small></p>
-          <p class="project_url"><small><strong>Pronto podras verlo</strong> en mi perfil de HitGub</small></p>
-          <p class="project_description">Será el resultado de mucho esfuerzo, no te lo pierdas.</p>
-        </div>
+      <div class="container">
+        <h2>
+          Portafolio (Proyectos Destacados)
+        </h2>
+        <article class="project">
+          <div class="project_details">
+            <h3 class="project_title">Primera aplicación</h3>
+            <h6 class="project_course">HTML/CSS/JASCRIPT</h6>
+            <p class="project_date"><small><strong>Fecha: </strong>15/01/2019</small></p>
+            <p class="project_url"><small><strong>Pronto podras verlo</strong> en mi perfil de HitGub</small></p>
+            <p class="project_description">Será el resultado de mucho esfuerzo, no te lo pierdas.</p>
+          </div>
 
-        <figure class="project_image_container">
-          <img class="project_image"src="imagenes/platzi-video-react-native.png" alt="proyecto curso reat-native" width="500px">
-        </figure>
-      </article>
+          <figure class="project_image_container">
+            <img class="project_image"src="imagenes/platzi-video-react-native.png" alt="proyecto curso reat-native" width="500px">
+          </figure>
+        </article>
+      </div>
     </section>
-    <h2 class="event_title">
-      Más sobre mi experiencia
-    </h2>
+    <div class="container">
+      <h2 class="event_title">
+        Más sobre mi experiencia
+      </h2>
+    </div>
     <section id="eventos" class="eventos">
-      <article class="event">
-        <figure class="event_images_container">
-          <img class="event_images" src="imagenes/platzi-conf.jpg" width="500px" alt="">
-        </figure>
-        <div class="event_detail">
-          <h3 class="event_title">
-            Cursos de administración de Servidores</h3>
-          <p class="event_description">Curso super util para aprender Linux y un manejo basico de servidores ubuntu</p>
-          <a class="event_url" href="https://www.youtube.com/embed/t_shSXXV91w" target="_blank">Pronto disponible</a>
-        </div>
-      </article>
-      <article class="event">
-        <figure class="event_images_container">
-          <img class="event_images" src="imagenes/platzi-conf.jpg" width="500px" alt="">
-        </figure>
-        <div class="event_detail">
-          <h3 class="event_title">
-            Cursos de administración de Servidores</h3>
-          <p class="event_description">Curso super util para aprender Linux y un manejo basico de servidores ubuntu</p>
-          <a class="event_url" href="https://www.youtube.com/embed/t_shSXXV91w" target="_blank">Pronto disponible</a>
-        </div>
-      </article>
+      <div class="container">
+        <article class="event">
+          <figure class="event_images_container">
+            <img class="event_images" src="imagenes/platzi-conf.jpg" width="500px" alt="">
+          </figure>
+          <div class="event_detail">
+            <h3 class="event_title">
+              Cursos de administración de Servidores</h3>
+              <p class="event_description">Curso super util para aprender Linux y un manejo basico de servidores ubuntu</p>
+              <a class="event_url" href="https://www.youtube.com/embed/t_shSXXV91w" target="_blank">Pronto disponible</a>
+            </div>
+          </article>
+          <article class="event">
+            <figure class="event_images_container">
+              <img class="event_images" src="imagenes/platzi-conf.jpg" width="500px" alt="">
+            </figure>
+            <div class="event_detail">
+              <h3 class="event_title">
+                Cursos de administración de Servidores</h3>
+                <p class="event_description">Curso super util para aprender Linux y un manejo basico de servidores ubuntu</p>
+                <a class="event_url" href="https://www.youtube.com/embed/t_shSXXV91w" target="_blank">Pronto disponible</a>
+              </div>
+            </article>
+      </div>
     </section>
     <section id="contacto" class="contact">
-      <form class="form_email" action="/suscripcion/" method="post">
-        <h3>¿Creamos algo juntos?</h3>
-        <input type="email" placeholder="Déjanos tu email" required>
-        <input type="submit" value="Enviar">
-        <!-- <button type="button" name="button">Enviar</button> -->
-      </form>
+      <div class="container">
+        <form class="form_email" action="/suscripcion/" method="post">
+          <h3>¿Creamos algo juntos?</h3>
+          <input class="email" type="email" placeholder="Déjanos tu email" required>
+          <input class="boton" type="submit" value="Enviar">
+          <!-- <button type="button" name="button">Enviar</button> -->
+        </form>
+        <div class="social">
+          <a class="social_link twitter" href="https://twitter.com/dan_kun93"></a>
+          <a class="social_link facebook" href="https://www.facebook.com/dgalindez2"></a>
+          <a class="social_link github" href="https://github.com/dan-kun"></a>
+          <a class="social_link instagram" href="https://www.instagram.com/dan3063"></a>
+        </div>
+      </div>
     </section>
     <footer class="footer">
-      <div>
-        <p>Curso de Desarrollo web 2018 <img src="imagenes/platzi.png" width="80px" alt="logo_platzi"> </p>
-      </div>
-      <div >
-        <p>Designed with <\3 by  <a href="https://twitter.com/dan_kun93"> @dan_kun93 </a> </p>
+      <div class="container">
+        <div>
+          <p>Curso de Desarrollo web 2018 <img src="imagenes/platzi.png" width="80px" alt="logo_platzi"> </p>
+        </div>
+        <div >
+          <p>Designed with <\3 by  <a href="https://twitter.com/dan_kun93"> @dan_kun93 </a> </p>
+        </div>
       </div>
     </footer>
 </body>
